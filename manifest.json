@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Soundcloud Deposter",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.soundcloud.com/stream*"
+      ],
+      "js": ["script.js"]
+    }
+  ]
+}
